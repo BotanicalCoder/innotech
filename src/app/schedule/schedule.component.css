@@ -1,0 +1,27 @@
+.schedule {
+  font-size: xx-large;
+  text-align: justify;
+  position: relative;
+}
+h2 {
+  margin-top: 2em;
+  margin-bottom: -0.2em;
+  text-align: center;
+  font-size: xx-large;
+}
+
+hr {
+  border: 1.5px solid black;
+}
+
+p {
+  padding: 0em;
+  text-align: center;
+}
+h4 {
+  padding: 0em;
+}
+h6 {
+  text-align: left;
+  padding: 0em 3em;
+}

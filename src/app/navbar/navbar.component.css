@@ -1,0 +1,72 @@
+nav {
+  background-color: rgb(219, 216, 216);
+  color: black;
+  margin: -2em 0em 0em -1em;
+  width: 100vw;
+  margin-bottom: -1.5em;
+  padding-bottom: 0em;
+  padding-top: 1em;
+  padding-left: 0.7em;
+  padding-right: 0em;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0em 0.5em 0em 0em;
+  padding-left: 0em;
+}
+
+ul li {
+  display: inline-block;
+  padding-right: 2em;
+}
+
+.first {
+  margin-right: 6em;
+}
+li a {
+  text-decoration: none;
+}
+li a:link {
+  color: black;
+}
+li a:visited {
+  color: black;
+}
+li a:hover {
+  color: blue;
+}
+li a:active {
+  color: violet;
+}
+
+.toggleable {
+  font-weight: lighter;
+  font-size: large;
+}
+
+@media screen and (max-width: 450px) {
+  .icon {
+    display: block;
+  }
+
+  ul {
+    margin-left: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+  }
+  ul li {
+    padding: 0.1em 0em 0em 0.5em;
+  }
+  .first {
+    margin-right: 0.3em;
+    padding-left: 0.2em;
+    font-size: large;
+  }
+  .toggleable {
+    font-size: small;
+    font-weight: bolder;
+  }
+}

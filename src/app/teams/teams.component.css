@@ -1,0 +1,15 @@
+div {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: 0.1em;
+  max-width: 80%;
+}
+
+#searchform {
+  margin: 3em;
+  margin-bottom: 0em;
+  display: block;
+  width: 100%;
+}

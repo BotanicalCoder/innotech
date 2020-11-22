@@ -1,0 +1,9 @@
+<div >
+    <form id='searchform'> 
+        <label>search</label><input type='text' placeholder="team name"
+        name='teamName' [(ngModel)]='teamName' class='form-control' />
+        <button (click)='filterTeams()'>find team</button>
+    </form>
+    <app-team [team]='team' *ngFor='let team of teams' [routerLink]="['/teams', team.teamId]"></app-team> 
+</div>
+
